@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,200;1,300&family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto&family=Rubik+Bubbles&display=swap');
+
+body {
+    background-color: #0A1828;
+}
+.topbar{
+    background-color:#0A1828;
+    display: flex;
+    flex-wrap: wrap;
+    height: 50px;
+    width: auto;
+    margin-top: -15px;
+    border: 1px solid rgb(107, 106, 106);
+}
+.a2{
+    background-color: rgb(20, 33, 61);
+    height: 240px;
+    width: 220px; 
+    border-radius: 10px;
+    margin-top: -20px;
+    text-align: center;
+    color:#6ACFC7;
+    font-size: large;
+    font-family: 'poppins';
+    font-weight:400;
+    cursor: pointer;
+    border: 1px solid rgb(107, 106, 106);
+}
+.a3{
+    background-color: rgb(33, 32, 32);
+    height: 240px;
+    width: 220px;
+    border-radius: 10px;
+    margin-top: -20px;
+    text-align: center;
+    color:#6ACFC7;
+    font-size: large;
+    font-family: 'poppins';
+    font-weight:400;
+    cursor: pointer; 
+    border: 1px solid rgb(107, 106, 106); 
+}
+.a4{
+    background-color: rgb(33, 32, 32);
+    height: 240px;
+    width: 220px;
+    border-radius: 10px;
+    margin-top: -20px;
+    text-align: center;
+    color:#6ACFC7;
+    font-size: large;
+    font-family: 'poppins';
+    font-weight:400;
+    cursor: pointer; 
+    border: 1px solid rgb(107, 106, 106); 
+}
+#seemore{
+    display: flex;
+    color:#6ACFC7;
+    font-size: x-large;
+    font-weight: 700;
+    font-family: 'roboto';
+    margin-top: 30px;
+    justify-content: space-between;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+button{
+    background-color:#0A1828;
+    justify-content: space-between;
+    border: none;
+    color:#6ACFC7;
+    cursor: pointer;
+    margin-right: 80px;
+    padding-top: 10px;
+    font-family: 'poppins';
+    font-weight:400;
+    font-size: 15px;
+}
+#b{ color:#6ACFC7;
+    font-family: 'rubik bubbles';
+    font-weight: 300;
+    padding-top: 12px;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+#b3{
+    color:#6ACFC7;
+    font-size: x-large;
+    font-weight: 700;
+    font-family: 'roboto';
+    margin-top: 60px;
+    letter-spacing: 2px;
+}
+#b4{
+    color:#6ACFC7;
+    font-size: x-large;
+    font-weight: 700;
+    font-family: 'roboto';
+    margin-top: 60px;
+    letter-spacing: 2px;
+} 
+#searchicon{
+    height: 20px;
+    width: 20px;
+    padding-top: 10px;
+}
+.popularmovies{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.popularmovies img:hover{
+    filter: saturate(0);
+    transition: 1000ms ease;
+}
+
+.popularmovies img{
+    object-fit: fill;
+    object-position: center;
+    transition: 200ms;
+}
+
+#i2{
+    height: 240px;
+    width: 220px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.topseries{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 100%
+}
+.topseries img:hover{
+    filter: saturate(0);
+    transition: 1000ms ease;
+}
+
+.topseries img{
+    object-fit: fill;
+    object-position: center;
+    transition: 200ms;
+}
+
+#i3{
+    height: 240px;
+    width: 220px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.topanime{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 100%
+}
+.topanime img:hover{
+    filter: saturate(0);
+    transition: 1000ms ease;
+}
+
+.topanime img{
+    object-fit: fill;
+    object-position: center;
+    transition: 200ms;
+}
+
+#i4{
+    height: 240px;
+    width: 220px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+

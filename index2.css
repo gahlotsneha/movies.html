@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,200;1,300&family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto&family=Rubik+Bubbles&display=swap');
+
+body{
+    background-color: #0A1828;
+}
+.topbar{
+    background-color:#0A1828;
+    display: flex;
+    flex-wrap: wrap;
+    height: 50px;
+    width: auto;
+    margin-top: -15px;
+    border: 1px solid rgb(107, 106, 106);
+}
+#taskbar{
+    background-color:#0A1828;
+    justify-content: space-between;
+    border: none;
+    color:#6ACFC7;
+    cursor: pointer;
+    margin-right: 80px;
+    padding-top: 10px;
+    font-family: 'poppins';
+    font-weight:400;
+    font-size: 15px;
+}
+#b{ 
+    background-color: #0A1828;
+    color:#6ACFC7;
+    font-family: 'rubik bubbles';
+    font-weight: 300;
+    padding-top: 12px;
+    font-size: 22px;
+    letter-spacing: 2px;
+    border: none;
+}
+#searchicon{
+    height: 20px;
+    width: 20px;
+    padding-top: 10px;
+}
+.bodydiv{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-basis: auto; */
+    background-color: #06111e;
+    /* background-color: red; */
+    height:100rem;
+    width:85%;
+    margin: auto;
+    margin-top: 40px;
+}
+.oppendiv{
+    /* background-color: violet; */
+    height: 320px;
+    width: 240px;
+}
+.textdiv{
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* background-color: white; */
+    height: 210px;
+    width: 40%;
+    margin-top: 20px;
+}
+#oppenpic{
+    height: 260px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(99, 87, 87);
+    cursor: pointer;
+}
+#oppentext{
+    /* background-color:aqua; */
+    width: 57%;
+    height: 35px;
+    letter-spacing: 4px;
+    font-size: x-large;
+    margin-left: 3px;
+    font-family: 'poppins';
+    color:rgb(190, 191, 193) ;
+    cursor: pointer;
+}
+#rating{
+    height: 35px;
+    margin-top:5px;
+    word-spacing: 25px;
+    margin-left: 3px;
+    color:rgb(190, 191, 193) ;
+    cursor: pointer;
+}
+#countrytext{
+    font-family: 'poppins';
+    margin-top:-15px;
+    margin-left:8px;
+    font-size:13px;
+    color:rgb(190, 191, 193) ;
+    cursor: pointer;
+}
+#genretext{
+    font-family: 'poppins';
+    margin-top: -5px;
+    margin-left: 8px;
+    font-size:13px;
+    color:rgb(190, 191, 193) ;
+    cursor: pointer;
+}
+#releasedtext{
+    font-family: 'poppins';
+    margin-top: -5px;
+    margin-left:8px;
+    font-size:13px;
+    color:rgb(190, 191, 193) ;
+    cursor: pointer;
+}
+#productiontext{
+    font-family: 'poppins';
+    margin-top: -6px;
+    margin-left: 8px;
+    font-size:13px;
+    color:rgb(190, 191, 193) ;
+    cursor: pointer;
+}
+#casttext{
+    letter-spacing: 4px;
+    /* font-size: x-large; */
+    margin-top: -1px;
+    margin-left: 7px;
+    font-family: 'poppins';
+    color:rgb(190, 191, 193) ;
+    cursor: pointer;
+}
+#castpic{
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    object-fit:cover;
+    color:rgb(190, 191, 193) ;
+    cursor: pointer;
+}
+.about{
+    /* background-color: green; */
+    font-family: 'poppins';
+    font-size:13px;
+    width: 100%;
+    color:rgb(190, 191, 193) ;
+    cursor: pointer;
+}
+.play{
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: yellow; */
+    height:30%;
+    width: 100%;
+    /* margin:auto; */
+    position: relative;
+    margin-top:-10%;
+}
+#movieplay{
+    height: 85%;
+    width: 70%;
+    object-fit: cover;
+    object-position: center;
+    margin-left:15%;
+    margin-top:30px;
+    filter: blur(4px);
+}
+#playbutton{
+    /* background: white; */
+    height:7rem;
+    width:auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 888;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+.serbutton{
+    /* background-color: pink; */
+    height: 50px;
+    width: 100%;
+    margin-top: -15%;
+}
+#server{
+    width: 150px;
+    border: none;
+    height: 35px;
+    margin: -65px;
+    border-radius: 6px;
+    background-color:#0A1828;
+    color:rgb(190, 191, 193) ;
+    border: 1px solid rgb(107, 106, 106);
+    margin-left: 180px; 
+    cursor: pointer; 
+}
+#cliptext{
+    /* background-color: #fff; */
+    height: 35px;
+    letter-spacing: 4px;
+    font-size: x-large;
+    margin-top: -24%;
+    font-family: 'poppins';
+    margin-left: 440px;
+    color:rgb(190, 191, 193) ;
+}
+.moviesclip{
+    display: flex;
+    flex-wrap: wrap;
+    height: 280px;
+    width: 100% ;
+    justify-content: space-around;
+    /* background-color: aqua; */
+    margin-top: -35%;
+}
+#movieimg{
+    height: 220px;
+    width: 190px;
+    border-radius: 10px;
+    border: 1px solid rgb(107, 106, 106);
+    object-fit: cover;
+    margin-top: 30px;
+    cursor: pointer;
+}
